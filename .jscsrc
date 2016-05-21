@@ -1,0 +1,19 @@
+{
+  "esnext": true,
+  "preset": "google",
+  "fileExtensions": [".js", ".jsx"],
+  "requireCurlyBraces": true,
+  "requireParenthesesAroundIIFE": true,
+  "maximumLineLength": 120,
+  "validateLineBreaks": "LF",
+  "validateIndentation": 2,
+  "disallowKeywords": ["with"],
+  "disallowSpacesInsideObjectBrackets": null, "disallowImplicitTypeConversion": ["string"],
+  "safeContextKeyword": "that",
+  "requireCamelCaseOrUpperCaseIdentifiers": false,
+  "validateQuoteMarks": { "mark": "'", "escape": true, "ignoreJSX": true },
+  "excludeFiles": [
+    "dist/**",
+    "node_modules/**"
+  ]
+}
