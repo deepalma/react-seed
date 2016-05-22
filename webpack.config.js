@@ -56,7 +56,7 @@ const common = {
       'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
     }),
     new HtmlWebpackPlugin({
-      title: 'OW Forecast',
+      //title: 'YOUR APP NAME',
       template: 'node_modules/html-webpack-template/index.ejs',
       appMountId: 'app',
       inject: false
